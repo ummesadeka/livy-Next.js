@@ -36,7 +36,7 @@ const request = await fetch(
 
   return{
     props: {
-      results: request.results ,
+      results: request.results || null ,
     },
   };
 }
